@@ -3,9 +3,9 @@ var cardsInPlay = [];
 
 var checkForMatch = function(){
 	if (cardsInPlay[0] === cardsInPlay[1]){
-		alert("You've found a match!");
+		console.log("You've found a match!");
 	} else {
-		alert("Sorry, loser... Try again...");
+		console.log("Sorry, loser... Try again...");
 	}
 }
 
